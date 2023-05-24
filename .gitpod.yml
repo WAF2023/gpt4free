@@ -9,5 +9,5 @@ ports:
   - port: 8501
     onOpen: ignore
     # vnc
-  - port: 6080
+  - port: 8501
     onOpen: open-preview
