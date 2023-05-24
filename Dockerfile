@@ -14,6 +14,6 @@ COPY . /root/gpt4free
 
 WORKDIR /root/gpt4free
 
-CMD ["streamlit", "run", "./gui/streamlit_app.py"]
+CMD ["streamlit", "run", "./gui/streamlit_app.py","--browser.gatherUsageStats","false","--server.gatherUsageStats","false"]
 
 EXPOSE 8501
